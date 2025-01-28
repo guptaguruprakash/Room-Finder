@@ -36,22 +36,14 @@ On Windows:
 python -m venv venv
 .\venv\Scripts\Activate
 ```
-On macOS/Linux:
-```bash
-python3 -m venv venv 
-source venv/bin/activate
-```
+
 ### 3. Install Dependencies
 #### Install Django and other dependencies:
 On Windows:
 ```bash
 pip install -r requriements.txt
 ```
-On macOS/Linux:
-```bash
-pip3 install -r requriements.txt
 
-```
 ### 4. Run the Server
 #### Start the development server:
 On Windows:
@@ -61,10 +53,7 @@ py .\manage.py runserver
 ```
 
 On macOs/Linux:
-```bash
-cd Room-Finder  
-python3 manage.py runserver 
-```
+
 ### 5. Run the Tailwind Server
 #### Run the TailwindCSS build process in a separate terminal:
 On Windows:
