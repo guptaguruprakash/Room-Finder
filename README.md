@@ -45,11 +45,11 @@ source venv/bin/activate
 #### Install Django and other dependencies:
 On Windows:
 ```bash
-pip install -r requriement.txt
+pip install -r requriements.txt
 ```
 On macOS/Linux:
 ```bash
-pip3 install -r requriement.txt
+pip3 install -r requriements.txt
 
 ```
 ### 4. Run the Server
