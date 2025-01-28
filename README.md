@@ -42,7 +42,7 @@ python -m venv venv
 On Windows:
 ```bash
 cd .\Room-finder
-pip install -r requriements.txt
+pip install -r requirements.txt
 
 ```
 
