@@ -41,6 +41,7 @@ python -m venv venv
 #### Install Django and other dependencies:
 On Windows:
 ```bash
+cd .\Room-finder
 pip install -r requriements.txt
 ```
 
@@ -48,7 +49,7 @@ pip install -r requriements.txt
 #### Start the development server:
 On Windows:
 ```bash
-cd .\Room-fnder
+
 py .\manage.py runserver
 ```
 
@@ -67,6 +68,7 @@ py manage.py tailwind install
 ```
 #### Start the TailwindCSS build process:
 ```bash
+
 py manage.py tailwind start
 ```
 
