@@ -27,7 +27,7 @@ Follow these steps to set up the project on your local machine.
 ### 1. Clone the Repository
 #### Clone this repository to your local system:
 ```bash
-git clone https://github.com/manojbaniya68/Room-Finder.git](https://github.com/guptaguruprakash/Room-finder.git
+git clone https://github.com/guptaguruprakash/Room-finder.git
 ```
 ### 2. Create and Activate a Virtual Environment
 #### Create a virtual environment and activate it:
