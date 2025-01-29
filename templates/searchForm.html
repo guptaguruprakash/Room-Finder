@@ -1,47 +1,55 @@
 <!-- Search Form Section -->
 <div id="search" class="container mx-auto px-4 py-16">
-    <div class="bg-white p-8 rounded-lg shadow-lg transform transition-all duration-500 hover:scale-105">
-        <form class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            <!-- Campus Name -->
-            <input
-                type="text"
-                placeholder="Campus or University Name"
-                class="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300"
-            />
-
-            <!-- Preferred Distance from Campus (Manual Input) -->
-            <input
-                type="text"
-                placeholder="Distance from Campus (e.g., 2 km)"
-                class="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300"
-            />
-
-            <!-- Number of Sitters -->
-            <select
-                class="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300"
-            >
-                <option value="">Number of Sitters</option>
-                <option value="1">1 Sitter</option>
-                <option value="2">2 Sitters</option>
-                <option value="3">3 Sitters</option>
-                <option value="4">4 Sitters</option>
-                <option value="5+">5+ Sitters</option>
-            </select>
-
-            <!-- Max Budget -->
-            <input
-                type="number"
-                placeholder="Max Budget (NPR)"
-                class="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300"
-            />
-
-            <!-- Search Button -->
-            <button
-                type="submit"
-                class="bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700 transition-all duration-300 col-span-full md:col-span-1 transform hover:scale-105"
-            >
-                Search Rooms
-            </button>
-        </form>
+    <div
+      class="bg-white p-8 rounded-lg shadow-lg transform transition-all duration-500 hover:scale-105"
+    >
+      <form class="flex flex-col space-y-4">
+        <!-- Form Fields -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <!-- Campus Name -->
+          <input
+            type="text"
+            placeholder="Campus or University Name"
+            class="p-3 border border-gray-300 rounded-lg w-full focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300"
+          />
+  
+          <!-- Preferred Distance from Campus (Manual Input) -->
+          <input
+            type="text"
+            placeholder="Distance from Campus (e.g., 2 km)"
+            class="p-3 border border-gray-300 rounded-lg w-full focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300"
+          />
+  
+          <!-- Number of Sitters -->
+          <select
+            class="p-3 border border-gray-300 rounded-lg w-full focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300"
+          >
+            <option value="">Number of Sitters</option>
+            <option value="1">1 Sitter</option>
+            <option value="2">2 Sitters</option>
+            <option value="3">3 Sitters</option>
+            <option value="4">4 Sitters</option>
+            <option value="5+">5+ Sitters</option>
+          </select>
+  
+          <!-- Max Budget -->
+          <input
+            type="number"
+            placeholder="Max Budget (NPR)"
+            class="p-3 border border-gray-300 rounded-lg w-full focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300"
+          />
+        </div>
+  
+        <!-- Search Button -->
+        <div class="flex justify-center mt-4">
+          <button
+            type="submit"
+            class="bg-blue-600 w-full sm:w-[200px] text-white p-3 rounded-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105"
+          >
+            Search Rooms
+          </button>
+        </div>
+      </form>
     </div>
-</div>
+  </div>
+  
